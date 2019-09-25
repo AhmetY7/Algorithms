@@ -21,7 +21,7 @@ public class Main {
 
         int[] temp = new int[right - left]; // temporary array for merging
 
-        while (l < middle && m < middle) {
+        while (l < middle && m < right) {
             if (array[l] <= array[m]) {
                 temp[k] = array[l];
                 l++;
