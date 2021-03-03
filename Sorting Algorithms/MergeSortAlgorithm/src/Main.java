@@ -1,3 +1,16 @@
+/*
+Merge Sort is one of the most popular sorting algorithms that is based on the principle of Divide and Conquer Algorithm.
+
+A problem is divided into multiple sub-problems. Each sub-problem is solved individually. Finally, sub-problems
+are combined to form the final solution.
+
+Complexity: O(n*log n)
+
+Merge Sort Applications
+-Inversion count problem
+-External sorting
+-E-commerce applications
+ */
 public class Main {
     public static void  mergeSort(int[] array, int leftIncl, int rightExcl) {
         // the base condition
